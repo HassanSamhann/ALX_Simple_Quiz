@@ -4,7 +4,7 @@ function  checkAnswer() {
     // Function body
     let feedback = document.getElementById("feedback"); 
     let Answer = document.querySelector('input[name="quiz"]:checked');
-   let  userAnswer = Answer.value
+   let  userAnswer = Answer.value ;
     
     let correctAnswer  = "4" ; 
 
@@ -17,5 +17,5 @@ function  checkAnswer() {
 
 }
 
-submit.addEventListener('click', checkAnswer)
+submit.addEventListener('click', checkAnswer) ; 
 
