@@ -1,6 +1,6 @@
 let selectedOption = document.querySelector("input[name='quiz']:checked");
 let  userAnswer = selectedOption.value ;
-
+s
 function  checkAnswer() {
     let correctAnswer  = "4" ; 
     
