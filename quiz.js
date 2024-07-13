@@ -3,8 +3,8 @@ let submit= document.getElementById("submit-answer");
 function  checkAnswer() {
     // Function body
     let feedback = document.getElementById("feedback"); 
-    let userAnswer = document.querySelector('input[name="quiz"]:checked');
-     userAnswer = userAnswer.value
+    let Answer = document.querySelector('input[name="quiz"]:checked');
+   let  userAnswer = Answer.value
     
     let correctAnswer  = "4" ; 
 
