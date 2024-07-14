@@ -1,26 +1,9 @@
-// function  checkAnswer() {
-//     let correctAnswer  = "4" ; 
-    
-//     let selectedOption = document.querySelector("input[name='quiz']:checked");
-//     let  userAnswer = selectedOption.value ;
-    
-    
-//     if(userAnswer === correctAnswer){
-//         document.getElementById("feedback").textContent = "Correct! Well done." ; 
 
-//     }else{
-//         document.getElementById("feedback").textContent = "That's incorrect. Try again!" ;
-//     }; 
-
-// };
-
-// document.getElementById("submit-answer").addEventListener('click', checkAnswer) ; 
-
-const radioInputs = document.querySelectorAll("input[name='quiz']"),
-submitBtn = document.getElementById("submit-answer"),
+let  inputs = document.querySelectorAll("input[name='quiz']"),
+submit = document.getElementById("submit-answer"),
 feedback = document.getElementById('feedback');
 
-submitBtn.addEventListener("click" , _ => {
+submit.addEventListener("click" , () => {
     // get the checked input----
     let userAnswer = parseFloat(document.querySelector("input[name='quiz']:checked").value);
 
